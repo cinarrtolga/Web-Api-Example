@@ -1,0 +1,12 @@
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.csproj.CopyComplete
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Model\obj\Debug\netcoreapp3.1\Model.pdb

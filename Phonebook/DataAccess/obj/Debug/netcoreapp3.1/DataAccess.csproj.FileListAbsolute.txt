@@ -1,0 +1,6 @@
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache

@@ -9,7 +9,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=OnlinePhoneBook;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=Online_Phone_Book;Integrated Security=True;");
         }
 
         public DbSet<Phones> Tbl_Phones { get; set; }

@@ -4,3 +4,14 @@ C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\ob
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache

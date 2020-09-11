@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "INTRKD5MYnaMW2trt1N6qWKzrfB0BPbUFrR2KXRvYOdJVj+GtjBs+MEux33iQpol15hkqXMvEinQBd7MSQfqvg==",
+  "dgSpecHash": "AtWmgiufpH5RjTGynIT94ckmvawMFBj3KxMLIYko71zdC1NI2b6NEb0VRKWKwz7liTY3pskeP+IGnHahNzDSxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\edgar\\Documents\\Projects\\GitHub\\Web-Api-Example\\Phonebook\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\edgar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

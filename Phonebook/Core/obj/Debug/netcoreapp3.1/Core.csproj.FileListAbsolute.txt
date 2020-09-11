@@ -1,6 +1,5 @@
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\bin\Debug\netcoreapp3.1\Core.deps.json
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\bin\Debug\netcoreapp3.1\Core.dll
-C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\Core\bin\Debug\netcoreapp3.1\Core.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using Business.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Model.DTO;
 using Model.Entities;
@@ -18,11 +19,12 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get(PhoneRequestModel request)
+        [Authorize]
+        public ActionResult Get(int? phoneId)
         {
-            if (ModelState.IsValid)
+            if (phoneId != null)
             {
-                var phone = _phoneService.GetPhoneByPhoneId(request.PhoneId);
+                var phone = _phoneService.GetPhoneByPhoneId(phoneId);
 
                 if (phone != null)
                 {
@@ -36,7 +38,8 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] PhoneModel request)
+        [Authorize]
+        public ActionResult Post(PhoneModel request)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +69,8 @@ namespace WebApi.Controllers
         }
 
         [HttpPut]
-        public ActionResult Put([FromBody] PhoneModel request)
+        [Authorize]
+        public ActionResult Put(PhoneModel request)
         {
             if (ModelState.IsValid)
             {
@@ -96,6 +100,7 @@ namespace WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)

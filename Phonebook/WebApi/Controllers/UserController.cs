@@ -1,5 +1,12 @@
-﻿using Business.Abstract;
+﻿using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Business.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using Model.DTO;
 using Model.Entities;
 
@@ -9,19 +16,63 @@ namespace WebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _userService;
+        private readonly IUserService _userService; 
+        private readonly IConfiguration _config;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, IConfiguration config)
         {
             _userService = userService;
+            _config = config;
         }
 
-        [HttpGet]
-        public ActionResult Get(UserRequestModel request)
+        [HttpPost("token")]
+        public ActionResult GetToken(UserRequestModel request)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                return Ok(new ResponseModel<object> { Status = false, Message = "Invalid request." });
+
+            if (_userService.GetUserByEmailAndPassword(request.Email, request.Password) != null)
             {
-                var user = _userService.GetUserByEmailAndPassword(request.Email, request.Password);
+                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:SecretKey"]));
+                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+                var claims = new[]
+                {
+                    new Claim(ClaimTypes.Name, request.Email),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                };
+
+                var token = new JwtSecurityToken(
+                    issuer: _config["Jwt:Issuer"],
+                    audience: _config["Jwt:Audience"],
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(180),
+                    signingCredentials: credentials
+                );
+
+                var tokenDetail = new TokenModel
+                {
+                    Token = new JwtSecurityTokenHandler().WriteToken(token),
+                    ExpireDate = DateTime.Now.AddMinutes(180),
+                    TokenType = "Bearer"
+                };
+
+                return Ok(new ResponseModel<object> { Status = true, Message = "Request successfully", Object = tokenDetail });
+            }
+            else
+            {
+                return BadRequest(new ResponseModel<object> { Status = false, Message = "Invalid User" });
+            }
+        }
+
+
+        [HttpGet]
+        [Authorize]
+        public ActionResult Get(int? userId)
+        {
+            if (userId != null)
+            {
+                var user = _userService.GetUserById(userId);
 
                 if (user != null)
                 {
@@ -35,7 +86,8 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] UserModel request)
+        [Authorize]
+        public ActionResult Post(UserModel request)
         {
             if (ModelState.IsValid)
             {
@@ -54,7 +106,8 @@ namespace WebApi.Controllers
         }
 
         [HttpPut]
-        public ActionResult Put([FromBody] UserModel request)
+        [Authorize]
+        public ActionResult Put(UserModel request)
         {
             if (ModelState.IsValid)
             {
@@ -74,6 +127,7 @@ namespace WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if(id != null)

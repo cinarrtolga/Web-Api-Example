@@ -69,6 +69,7 @@ C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\bin\De
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\edgar\Documents\Projects\GitHub\Web-Api-Example\Phonebook\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache

@@ -295,6 +295,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
             }
           },
           "imports": [

@@ -27,6 +27,8 @@ namespace WebApi
             services.AddScoped<IPhonesDal, PhonesDal>();
             services.AddScoped<IUserService, UserManager>();
             services.AddScoped<IUsersDal, UsersDal>();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +38,13 @@ namespace WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Example Phonebook API");
+            });
 
             app.UseHttpsRedirection();
 
